@@ -301,8 +301,14 @@ font-size: 1rem;
 }
 
 #main__img {
-    height: 80%;
-    width: 80%
+    width: 40vw;            
+    max-width: 900px;      
+    aspect-ratio: 1 / 1;    
+    object-fit: cover;       
+    object-position: right center; 
+    border-radius: 50%;      
+    border: 3px solid #000; 
+
 }
 
 @media screen and (max-width:768px) {
